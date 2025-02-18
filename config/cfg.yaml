@@ -1,0 +1,4 @@
+sequence: 21
+filter_threshold: 0.5
+show_plots: False
+min_matches: 8

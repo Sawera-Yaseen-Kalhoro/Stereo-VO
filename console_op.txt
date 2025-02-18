@@ -1,0 +1,576 @@
+C:\Users\Fatima Rustamani\Desktop\Stereo_VO> & "C:/Users/Fatima Rustamani/AppData/Local/Programs/Python/Python39/python.exe" "c:/Users/Fatima Rustamani/Desktop/Stereo_VO/evo_eval/evo_metrics.py"
+['00_gt.txt', '01_gt.txt', '02_gt.txt', '03_gt.txt', '04_gt.txt', '05_gt.txt', '06_gt.txt', '07_gt.txt', '08_gt.txt', '09_gt.txt', '10_gt.txt']
+['00_est.txt', '01_est.txt', '02_est.txt', '03_est.txt', '04_est.txt', '05_est.txt', '06_est.txt', '07_est.txt', '08_est.txt', '09_est.txt', '10_est.txt']
+Trimmed evo_eval/results\00_gt.txt to 4537 poses. Saved to evo_eval/results\00_gt_trimmed.txt
+--------------------------------------------------------------------------------
+name:   00_est
+infos:  4537 poses, 3718.921m path length
+--------------------------------------------------------------------------------
+name:   00_gt_trimmed
+infos:  4537 poses, 3719.655m path length
+--------------------------------------------------------------------------------
+Loaded 4537 poses from: evo_eval/results\00_est.txt
+Loaded 4537 poses from: evo_eval/results\00_gt_trimmed.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.98939827  0.12228535 -0.07834125]
+ [-0.12902984  0.98775056 -0.08775043]
+ [ 0.06665102  0.09692848  0.99305715]]
+Translation of alignment:
+[16.52824993 60.98912402  7.41128824]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 4537 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      77.318583
+      mean      26.533336
+    median      20.467626
+       min      1.758505
+      rmse      31.302043
+       sse      4445433.870367
+       std      16.607227
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/00.zip...
+[WARNING] evo_eval/results/00.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   01_est
+infos:  1101 poses, 2503.312m path length
+--------------------------------------------------------------------------------
+name:   01_gt
+infos:  1101 poses, 2453.203m path length
+--------------------------------------------------------------------------------
+Loaded 1101 poses from: evo_eval/results\01_est.txt
+Loaded 1101 poses from: evo_eval/results\01_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.99615247 -0.03549936 -0.08012524]
+ [ 0.05750074  0.9547231   0.29188606]
+ [ 0.06613565 -0.29537028  0.95309101]]
+Translation of alignment:
+[  5.54014453  -1.38673355 -34.16709467]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 1101 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      54.020573
+      mean      32.115122
+    median      32.854936
+       min      5.910795
+      rmse      33.759049
+       sse      1254780.432873
+       std      10.406361
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/01.zip...
+[WARNING] evo_eval/results/01.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   02_est
+infos:  4661 poses, 5082.668m path length
+--------------------------------------------------------------------------------
+name:   02_gt
+infos:  4661 poses, 5067.233m path length
+--------------------------------------------------------------------------------
+Loaded 4661 poses from: evo_eval/results\02_est.txt
+Loaded 4661 poses from: evo_eval/results\02_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.95399934  0.28573613 -0.09077514]
+ [-0.29141895  0.95490302 -0.05687895]
+ [ 0.07042908  0.08071607  0.99424577]]
+Translation of alignment:
+[ 46.28056866  82.46917443 -16.24489732]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 4661 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      95.952866
+      mean      36.924740
+    median      31.008183
+       min      10.265640
+      rmse      42.070428
+       sse      8249601.558264
+       std      20.161461
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/02.zip...
+[WARNING] evo_eval/results/02.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   03_est
+infos:  801 poses, 569.851m path length
+--------------------------------------------------------------------------------
+name:   03_gt
+infos:  801 poses, 560.888m path length
+--------------------------------------------------------------------------------
+Loaded 801 poses from: evo_eval/results\03_est.txt
+Loaded 801 poses from: evo_eval/results\03_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.9881674   0.14793619  0.04049783]
+ [-0.15175979  0.98130406  0.11836935]
+ [-0.02222957 -0.12311468  0.99214345]]
+Translation of alignment:
+[ 1.66651135 -1.48903785  3.67284213]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 801 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      6.552595
+      mean      3.569249
+    median      3.155310
+       min      2.138909
+      rmse      3.790518
+       sse      11508.789017
+       std      1.276122
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/03.zip...
+[WARNING] evo_eval/results/03.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   04_est
+infos:  271 poses, 402.002m path length
+--------------------------------------------------------------------------------
+name:   04_gt
+infos:  271 poses, 393.645m path length
+--------------------------------------------------------------------------------
+Loaded 271 poses from: evo_eval/results\04_est.txt
+Loaded 271 poses from: evo_eval/results\04_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.81635197  0.57755031  0.00225895]
+ [-0.57733498  0.816143   -0.02439114]
+ [-0.01593074  0.01860758  0.99969994]]
+Translation of alignment:
+[0.09622281 1.08051902 4.50868539]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 271 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      4.637351
+      mean      2.488169
+    median      2.383916
+       min      0.602950
+      rmse      2.695137
+       sse      1968.479767
+       std      1.035749
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/04.zip...
+[WARNING] evo_eval/results/04.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   05_est
+infos:  2761 poses, 2235.443m path length
+--------------------------------------------------------------------------------
+name:   05_gt
+infos:  2761 poses, 2205.576m path length
+--------------------------------------------------------------------------------
+Loaded 2761 poses from: evo_eval/results\05_est.txt
+Loaded 2761 poses from: evo_eval/results\05_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.99667052  0.05613903  0.05912934]
+ [-0.05264988  0.99686857 -0.05900032]
+ [-0.0622564   0.05569072  0.99650524]]
+Translation of alignment:
+[-7.89918806  9.3421228   7.43979896]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 2761 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      40.210374
+      mean      14.559728
+    median      11.469012
+       min      0.775360
+      rmse      17.351360
+       sse      831253.458582
+       std      9.438434
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/05.zip...
+[WARNING] evo_eval/results/05.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   06_est
+infos:  1101 poses, 1251.274m path length
+--------------------------------------------------------------------------------
+name:   06_gt
+infos:  1101 poses, 1232.876m path length
+--------------------------------------------------------------------------------
+Loaded 1101 poses from: evo_eval/results\06_est.txt
+Loaded 1101 poses from: evo_eval/results\06_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.9955797   0.09372798  0.00601075]
+ [-0.09347993  0.9950697  -0.03313306]
+ [-0.0090866   0.03242471  0.99943287]]
+Translation of alignment:
+[ 2.08466659  4.87148662 -0.42884033]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 1101 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      5.355853
+      mean      3.782356
+    median      3.873620
+       min      0.460666
+      rmse      3.926734
+       sse      16976.579422
+       std      1.054997
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/06.zip...
+[WARNING] evo_eval/results/06.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   07_est
+infos:  1101 poses, 699.655m path length
+--------------------------------------------------------------------------------
+name:   07_gt
+infos:  1101 poses, 694.697m path length
+--------------------------------------------------------------------------------
+Loaded 1101 poses from: evo_eval/results\07_est.txt
+Loaded 1101 poses from: evo_eval/results\07_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.99664615 -0.07890213 -0.02170041]
+ [ 0.07634041  0.99198365 -0.10070043]
+ [ 0.02947193  0.09870608  0.99468011]]
+Translation of alignment:
+[ 0.39876471 12.86456789  4.70987024]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 1101 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      14.631683
+      mean      5.229320
+    median      3.668642
+       min      0.449773
+      rmse      6.630880
+       sse      48409.394945
+       std      4.077105
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/07.zip...
+[WARNING] evo_eval/results/07.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   08_est
+infos:  4071 poses, 3243.194m path length
+--------------------------------------------------------------------------------
+name:   08_gt
+infos:  4071 poses, 3222.795m path length
+--------------------------------------------------------------------------------
+Loaded 4071 poses from: evo_eval/results\08_est.txt
+Loaded 4071 poses from: evo_eval/results\08_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.99760561  0.0585026   0.03688489]
+ [-0.05597957  0.99624295 -0.06607772]
+ [-0.04061203  0.0638547   0.99713251]]
+Translation of alignment:
+[-10.99945948 -13.64551199 -10.11500786]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 4071 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      41.680933
+      mean      21.989687
+    median      22.114739
+       min      2.655492
+      rmse      23.773382
+       sse      2300822.043046
+       std      9.034786
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/08.zip...
+[WARNING] evo_eval/results/08.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   09_est
+infos:  1591 poses, 1730.430m path length
+--------------------------------------------------------------------------------
+name:   09_gt
+infos:  1591 poses, 1705.051m path length
+--------------------------------------------------------------------------------
+Loaded 1591 poses from: evo_eval/results\09_est.txt
+Loaded 1591 poses from: evo_eval/results\09_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.96361949  0.26394717  0.04206389]
+ [-0.26696928  0.95807322  0.10403419]
+ [-0.01284076 -0.11147914  0.99368381]]
+Translation of alignment:
+[ -3.40447043 -58.85144431   7.22156779]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 1591 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      59.390521
+      mean      15.878318
+    median      10.257261
+       min      1.132388
+      rmse      21.805039
+       sse      756456.415362
+       std      14.944522
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/09.zip...
+[WARNING] evo_eval/results/09.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+--------------------------------------------------------------------------------
+name:   10_est
+infos:  1201 poses, 921.534m path length
+--------------------------------------------------------------------------------
+name:   10_gt
+infos:  1201 poses, 919.518m path length
+--------------------------------------------------------------------------------
+Loaded 1201 poses from: evo_eval/results\10_est.txt
+Loaded 1201 poses from: evo_eval/results\10_gt.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.98996056  0.13492061  0.04212498]
+ [-0.14025001  0.97466588  0.17423078]
+ [-0.01755046 -0.17838963  0.9838034 ]]
+Translation of alignment:
+[ 2.24117473 17.10114069 -0.17179254]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 1201 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max      17.503132
+      mean      5.467104
+    median      4.495362
+       min      0.248927
+      rmse      6.492765
+       sse      50629.352631
+       std      3.502395
+
+--------------------------------------------------------------------------------
+Plotting results...
+--------------------------------------------------------------------------------
+Saving results to evo_eval/results/10.zip...
+[WARNING] evo_eval/results/10.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+n
+Trimmed evo_eval/results\00_gt.txt to 4537 poses. Saved to evo_eval/results\00_gt_trimmed.txt
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      1.025557
+      mean      0.078790
+    median      0.065140
+       min      0.003958
+      rmse      0.114491
+       sse      11.889091
+       std      0.083068
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      11.975936
+      mean      0.978825
+    median      0.535951
+       min      0.079584
+      rmse      1.815037
+       sse      724.758749
+       std      1.528482
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      0.523500
+      mean      0.092852
+    median      0.080301
+       min      0.008042
+      rmse      0.109989
+       sse      11.274901
+       std      0.058957
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      0.279144
+      mean      0.084346
+    median      0.077728
+       min      0.014709
+      rmse      0.093584
+       sse      1.401263
+       std      0.040542
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      0.855688
+      mean      0.170222
+    median      0.150211
+       min      0.051406
+      rmse      0.208880
+       sse      2.356076
+       std      0.121060
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      0.304808
+      mean      0.072071
+    median      0.063492
+       min      0.009175
+      rmse      0.082827
+       sse      3.786875
+       std      0.040817
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      0.474652
+      mean      0.109270
+    median      0.097024
+       min      0.009063
+      rmse      0.127604
+       sse      3.582184
+       std      0.065900
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      0.226951
+      mean      0.058065
+    median      0.051178
+       min      0.010586
+      rmse      0.067383
+       sse      0.998904
+       std      0.034190
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      1.075532
+      mean      0.110108
+    median      0.078394
+       min      0.004703
+      rmse      0.180980
+       sse      26.661533
+       std      0.143631
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      1.305269
+      mean      0.116152
+    median      0.074277
+       min      0.014915
+      rmse      0.192920
+       sse      11.835386
+       std      0.154036
+
+RPE w.r.t. translation part (m)
+for delta = 5 (frames) using consecutive pairs
+(not aligned)
+
+       max      0.417780
+      mean      0.052589
+    median      0.045019
+       min      0.007042
+      rmse      0.067141
+       sse      1.081909
+       std      0.041741
